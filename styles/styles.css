@@ -1,124 +1,320 @@
-.nav-container{
-    display: flex;
-    width: 100%;
-    height: 130px;
-    background-color: aliceblue;
-    /* justify-content: flex-end; */
+.nav-container {
+  display: flex;
+  width: 100%;
+  height: 130px;
+  background-color: aliceblue;
+  /* justify-content: flex-end; */
 }
-.nav-title{
-    display: flex;
-    width: 50%;
-    font-size: 45px;
-    font-weight: 700;
-    justify-content: center;
-    align-items: center;
+.nav-title {
+  display: flex;
+  width: 50%;
+  font-size: 45px;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
 }
-.nav-title h3{
-margin-right: 50px;
+.nav-title h3 {
+  margin-right: 50px;
 }
-.nav-items-icon{
-    color: #3C354F;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.nav-items-icon {
+  color: #3c354f;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.nav-items-icon ul{
-    display: flex;
-    text-align: center;
+.nav-items-icon ul {
+  display: flex;
+  text-align: center;
 }
-.nav-items-icon ul li{
-    list-style: none;
+.nav-items-icon ul li {
+  list-style: none;
 }
-.nav-items-icon ul li a{
-    text-decoration: none;
-    color: #3C354F;
-    margin: 0px 20px;
+.nav-items-icon ul li a {
+  text-decoration: none;
+  color: #3c354f;
+  margin: 0px 20px;
+}
+.icon-container{
+  display: flex;
 }
 /* navbar End Here */
 /* The banner section Styles hare  */
-.banner-container{
-    display: flex;
-    width: 100%;
-    height: auto;
+.banner-container {
+  display: flex;
+  width: 100%;
+  height: auto;
 }
-.left-content{
-    width: 50%;
-    text-align: center;
-    display: block;
-    margin-top: 100px;
+.left-content {
+  width: 50%;
+  text-align: center;
+  display: block;
+  margin-top: 100px;
 }
-.left-content h3{
-    color: #0B0223;
-    text-align: center;
-    font-size: 48px;
-    font-weight: 600;
-    text-transform: uppercase;
+.left-content h3 {
+  color: #0b0223;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
-.left-content h1{
-    text-align: center;
-    font-size: 95px;
-    font-weight: 800;
-    text-transform: uppercase;
-    color:#F948B2;
+.left-content h1 {
+  text-align: center;
+  font-size: 95px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #f948b2;
 }
-.banner-description{
-    color: #534C64;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 500;
-    text-transform: lowercase;
+.banner-description {
+  color: #534c64;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: lowercase;
 }
-.btn-primary{
-    display: inline-flex;
-    padding: 21px 40px;
-    align-items: flex-start;
-    gap: 10px;
-    background-color: #F948B2;
-    color: white;
-    border: 0px;
-    border-radius: 10px;
+.btn-primary {
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  background-color: #f948b2;
+  color: white;
+  border: 0px;
+  border-radius: 10px;
 }
-.btn-secondery{
-    background-color: #4EC5F7;
-    color: white;
-    border: 0px;
-    border-radius: 10px;
-    gap: 10px;
-    padding: 21px 40px;
-    align-items: flex-start;
+.btn-secondery {
+  background-color: #4ec5f7;
+  color: white;
+  border: 0px;
+  border-radius: 10px;
+  gap: 10px;
+  padding: 21px 40px;
+  align-items: flex-start;
 }
-.right-image-content{
-    width: 50%;
+/* header section is complete  */
+
+/* we are gamer section  */
+.we-are-gamer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.we-are-gamer-left-image {
+  width: 50%;
+  margin: 60px 75px;
+  padding: 10px 20px;
+}
+.war-title {
+  text-align: right;
+  font-size: 48px;
+  font-weight: 700;
+  color: #f948b2;
+}
+/* we are gamer section end  */
+
+/* online game funny video styles hare  */
+
+.online-games-funny-video-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.online-game-image-container {
+  display: flex;
+}
+.online-game-image-container div p {
+  margin-left: 20px;
+}
+.online-game-image-container img {
+  padding: 20px;
+}
+.online-game-image-container img:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+span {
+  color: #f948b2;
+}
+/* play instantly section   */
+.play-instantly-section-container {
+  display: flex;
+  text-align: center;
+}
+.play-instantly-left-content {
+  width: 50%;
+}
+.play-instantly-left-content h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 200px;
+}
+.play-instantly-left-content p {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+}
+.play-instantly-right-image-content {
+  height: auto;
+}
+.play-instantly-right-image-content {
+  width: 50%;
+}
+.play-instantly-right-image-content img {
+  margin-top: 50px;
+}
+.buttom-image {
+  position: relative;
+  bottom: 200px;
+  right: 250px;
+}
+/* play instantly left content */
+
+/* Button section  */
+.games-all-btn {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  align-items: center;
+  justify-content: center;
+  margin: 60px 0;
+}
+
+.btn-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: 1px solid;
+  padding: 3px;
+}
+.btn-description {
+  color: #0b0223;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+}
+.btn-description:hover {
+  border: 1px solid#FF42A5;
+  background: #fdfafa;
+}
+.btn-description:hover {
+  color: #ff42a5;
+}
+
+/* footer section started hare  */
+footer {
+  width: 100%;
+  background: #0b0223;
+}
+.footer-main {
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 700;
+  color: #fdfafa;
+  padding: 30px;
+}
+.footer-item-list {
+  color: #fdfafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.footer-item-list li {
+  list-style: none;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 600;
+}
+.footer-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  gap: 60px;
+}
+.footer-2nd-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fdfafa;
+  list-style: none;
+  gap: 30px;
+  font-family: Work Sans;
+  font-size: 16px;
+  margin-top: 0;
+}
+.copy-right {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 30px;
 }
 
 /* Responsive Media Query */
-@media screen and (max-width: 425px) {
-    /* navbar responsive style  */
-    .nav-container{
-        flex-direction: column;
-        height: auto;
-    }
-    .nav-title{
-        width: 100%;
-    }
-    .nav-items-icon{
-        width: 100%;
-    }
-    .nav-items-icon ul{
-        flex-direction: column;
-    }
-    /* banner Responsive styles      */
-    .banner-container{
-        flex-direction: column;
-    }
-    .left-content{
-        width: 100%;
-        margin: 30px;
-    }
-    .right-image-content{
-        width: 50%;
-    }
+
+@media screen and (max-width: 576px) {
+  /* navbar responsive style  */
+  .nav-container {
+    flex-direction: column;
+    height: auto;
+  }
+  .nav-title {
+    width: 100%;
+  }
+  .nav-items-icon {
+    width: 100%;
+  }
+  .nav-items-icon ul {
+    flex-direction: column;
+  }
+  /* banner Responsive styles      */
+  .banner-container {
+    flex-direction: column;
+  }
+  .left-content {
+    width: 80%;
+    margin: 30px;
+  }
+  .right-image-content img {
+    width: 375px;
+  }
+  .we-are-gamer-container {
+    flex-direction: column;
+    height: auto;
+  }
+  .we-are-gamer-left-image {
+    margin: 0;
+    padding: 0;
+  }
+  .we-are-gamer-left-image img {
+    height: 120px;
+  }
+  .online-game-image-container {
+    flex-direction: column;
+  }
+  .online-game-image-container div p {
+    margin-left: 20px;
+  }
+  .play-instantly-section-container {
+    flex-direction: column;
+  }
+  #pi-height-d {
+    height: 340px;
+  }
+  .buttom-image {
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+  }
 }
